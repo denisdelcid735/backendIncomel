@@ -1,0 +1,34 @@
+create database examen;
+
+
+usuario: Denis
+contraseña: 1234
+
+usuario: Adolfo
+contraseña: 1234
+
+create table empleados(
+    id int primary key AUTO_INCREMENT,
+    created_by varchar(255),
+    registered_by varchar(255), 
+    dpi int,  
+    nombre varchar(255),
+    cantidad_hijos int,
+    salario_base int,
+    bono_decreto int,
+    igss decimal,
+    irtra decimal,
+    bono_paternidad decimal,
+    salario_total decimal,
+    salario_liquido decimal 
+);
+
+INSERT INTO `empleados`( `created_by`, `registered_by`, `dpi`, `nombre`, `cantidad_hijos`, `salario_base`, `bono_decreto`, `igss`, `irtra`, `bono_paternidad`, `salario_total`, `salario_liquido`) VALUES ('2023/01/01','ddelcid735@gmail.com','5154646','Denis','1','8000','250','343','130','130','8500','8300');
+
+INSERT INTO `empleados`( `created_by`, `registered_by`, `dpi`, `nombre`, `cantidad_hijos`, `salario_base`, `bono_decreto`, `igss`, `irtra`, `bono_paternidad`, `salario_total`, `salario_liquido`) VALUES ('2023/01/10','ddelcid735@gmail.com','154646','Adolfo','1','8000','250','343','130','130','8500','8300');
+
+INSERT INTO `empleados`( `created_by`, `registered_by`, `dpi`, `nombre`, `cantidad_hijos`, `salario_base`, `bono_decreto`, `igss`, `irtra`, `bono_paternidad`, `salario_total`, `salario_liquido`) VALUES ('2023/01/10','ddelcid735@gmail.com','56452','Juan','1','8000','250','343','130','130','8500','8300');
+
+INSERT INTO `empleados`( `created_by`, `registered_by`, `dpi`, `nombre`, `cantidad_hijos`, `salario_base`, `bono_decreto`, `igss`, `irtra`, `bono_paternidad`, `salario_total`, `salario_liquido`) VALUES ('2023/01/10','ddelcid735@gmail.com','123456','Pame','1','5500','250','343','130','130','8500','8300');
+
+INSERT INTO `empleados`( `created_by`, `registered_by`, `dpi`, `nombre`, `cantidad_hijos`, `salario_base`, `bono_decreto`, `igss`, `irtra`, `bono_paternidad`, `salario_total`, `salario_liquido`) VALUES ('2023/01/10','ddelcid735@gmail.com','123456','Judy','1','5500','250','343','130','130','8500','8300');
